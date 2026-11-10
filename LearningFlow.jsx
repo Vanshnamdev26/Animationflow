@@ -573,7 +573,7 @@ function startAutoScroll(){
           trigger.scroll(trigger.start);
           autoScrollProxy.y = trigger.start;
           startAutoScroll();
-        }, 1800);
+        }, 1000);
       }
     }
   });
